@@ -20,7 +20,7 @@ struct RaceDetailView: View {
             Text("Race Date & Time: \(formatDate(race.date))")
             Text("Circuit: \(race.track)")
             Text("No. Of Laps: \(race.laps)")
-            Text("Track Length: \(race.circuitLength.rounded())km")
+            Text("Track Length: \(race.circuitLength)km")
             Spacer()
         }
         .padding()
