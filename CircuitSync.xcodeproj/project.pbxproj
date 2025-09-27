@@ -8,11 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		7E4909682E8796170015F230 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 7E4909672E87960F0015F230 /* .gitignore */; };
+		7E49096A2E8797B90015F230 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 7E4909692E8797B10015F230 /* README.md */; };
+		7E49096C2E879AC90015F230 /* LICENSE.md in Resources */ = {isa = PBXBuildFile; fileRef = 7E49096B2E879AC10015F230 /* LICENSE.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		7E4909482E8722940015F230 /* CircuitSync.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CircuitSync.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E4909672E87960F0015F230 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		7E4909692E8797B10015F230 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		7E49096B2E879AC10015F230 /* LICENSE.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = LICENSE.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -50,6 +54,8 @@
 		7E49093F2E8722940015F230 = {
 			isa = PBXGroup;
 			children = (
+				7E49096B2E879AC10015F230 /* LICENSE.md */,
+				7E4909692E8797B10015F230 /* README.md */,
 				7E4909672E87960F0015F230 /* .gitignore */,
 				7E49094A2E8722940015F230 /* CircuitSync */,
 				7E4909492E8722940015F230 /* Products */,
@@ -128,7 +134,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7E49096A2E8797B90015F230 /* README.md in Resources */,
 				7E4909682E8796170015F230 /* .gitignore in Resources */,
+				7E49096C2E879AC90015F230 /* LICENSE.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
