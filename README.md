@@ -2,8 +2,6 @@
 
 **CircuitSync** is an iOS app built with **SwiftUI** that syncs live Formula 1 race data from the [OpenF1 API](https://api.openf1.org), giving fans an easy way to track circuits, race dates, and details in one place.  
 
----
-
 ## Will Feature:
 - Full Formula 1 race calendar for the season in one, clean spot 
 - Circuit information including circuit name, no. of laps, track length, date (in the user's local time)
@@ -14,15 +12,11 @@
 - WidgetKit support for quick calendar view
 - Still a work in progress, other unique features to come!
 
----
-
 ## Tech:
 - Language: Swift  
 - Framework: SwiftUI  
 - API: [OpenF1](https://api.openf1.org) for real-time race data  
 - Platform: iOS (iPhone / iPad)  
-
----
 
 ## Getting Started
 
@@ -36,24 +30,19 @@
    git clone https://github.com/isabelle-bh/CircuitSync.git
    cd CircuitSync
    ```
-2. Open CircuitSync.xcodeproj in Xcode
+2. Open ```CircuitSync.xcodeproj``` in Xcode
 3. Build and run on the simulator or a connected device
 
----
 
-##Contributing
+## Contributing
 
 Contributions, issues, and feature requests are welcome.
 Please open a pull request or submit an issue if you would like to contribute.
 
----
+## License
 
-##License
+Distributed under the MIT License. See the ```LICENSE``` file for details.
 
-Distributed under the MIT License. See the ```bash LICENSE ``` file for details.
+## Author
 
----
-
-##Author
-
-###Isabelle Beaudry Hajji
+### Isabelle Beaudry Hajji
